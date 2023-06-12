@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch
 
 # 文本预处理
-CATEGORY, NEWS, train_data, valid_data, test_data = pre_process_text('train')
+CATEGORY, NEWS, train_data, valid_data, test_data = pre_process_text()
 
 # 建立模型
 model = Classifier(
